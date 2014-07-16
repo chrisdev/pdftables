@@ -31,7 +31,4 @@ setup(
         'numpy>=1.6.2',
     ],
     tests_require=[],
-    entry_points=\
-    """
-    """,
 )
