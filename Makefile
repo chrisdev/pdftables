@@ -25,7 +25,7 @@ clean-pyc:
 	find . -name '*~' -exec rm -f {} +
 
 lint:
-	flake8 boilerplate tests
+	flake8 pdftables tests
 
 test:
 	python setup.py test
@@ -34,15 +34,15 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source boilerplate setup.py test
+	coverage run --source pdftables setup.py test
 	coverage report -m
 	coverage html
 	open htmlcov/index.html
 
 docs:
-	rm -f docs/boilerplate.rst
+	rm -f docs/pdftables.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ boilerplate
+	sphinx-apidoc -o docs/ pdftables
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	open docs/_build/html/index.html

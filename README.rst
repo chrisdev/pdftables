@@ -3,9 +3,9 @@ pdftables
 ===============================
 
 
-Extract tables from pdf documents.
-`pdftables` is a fork of the pdftables developed by `ScraperWiki
-<http://scraperwiki.com>`_
+A library for extracting tables from PDF documents.
+`pdftables` is a fork from  pdftables (0.0.4) which was developed 
+by `ScraperWiki <http://scraperwiki.com>`_. 
 
 * Free software: BSD license
 * Documentation: http://pdftables.readthedocs.org.
@@ -13,9 +13,10 @@ Extract tables from pdf documents.
 Features
 --------
 
-* TODO
+* TODO (for now)
 
   - make it work with the latest version of `pdfminer` (20140328)
+  - tidy up code base including PEP 8 compliance
   - review test cases and identify a set of pdf files to use for testing
   - Add some documentation
   - Confirm that Scraper Wiki is no longer interested in this and if this is
